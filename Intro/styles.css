@@ -1,0 +1,35 @@
+.boxes {
+    display:flex;
+}
+.boxes div {
+    border: 1px solid black;
+    padding: 1em;
+}
+/* ------------- */
+.boxesInaRow {
+    display:flex;
+    flex-direction: row;
+}
+.boxesInaRow div {
+    border: 1px solid black;
+    padding: 1em;
+}
+/* -------------- */
+.boxesInaReverseRow {
+    display:flex;
+    flex-direction: row-reverse;
+}
+.boxesInaReverseRow div {
+    border: 1px solid black;
+    padding: 1em;
+}
+/* ----------------- */
+
+.boxesInaColumn {
+    display:flex;
+    flex-direction: column;
+}
+.boxesInaColumn div {
+    border: 1px solid black;
+    padding: 1em;
+}
